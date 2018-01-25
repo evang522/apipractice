@@ -1,0 +1,38 @@
+* {
+    padding:0;
+    box-sizing:border-box;
+    margin:0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#e1e1e1;
+}
+
+.center {
+    text-align:center;
+}
+
+.results {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin:0 auto;
+    width:70%;
+    background-color:white;
+    padding:1em;
+}
+
+.item {
+    list-style:none;
+    margin:1em;
+    background-color:navy;
+    color:white;
+    padding:1em;
+    border-radius:10px;
+}
+
+.submit-item-form {
+    text-align:center;
+    margin:1em;
+}
